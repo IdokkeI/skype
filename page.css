@@ -146,24 +146,25 @@
 }
 .obrm{
     display: flex;
-    flex-direction: row;
-    width: 100%;
     justify-content: flex-end;
 }
-.obrn{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.obrn{    
     justify-content: flex-start;
 }
+
 .my{
+    
+    width: fit-content;
     margin-bottom: 1%;
+    flex-wrap: nowrap;
     background-color: rgb(160, 220, 240);
     border-radius: 10%;
     padding: 1%;
 }
 .nme{
-    
+    width: fit-content;
+    word-wrap: break-word;
+    margin-bottom: 1%;
     background-color: rgb(218, 218, 218);
     border-radius: 10%;
     padding: 1%;
