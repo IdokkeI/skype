@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
 }
+
 .nav{
     width: 30%;
     height: 100%;
@@ -10,38 +11,139 @@
     align-items: center;
 }
 .nav-avatar{
-    width: 100%;
+    width: 95%;
     display: flex;
-    height: 100%;
-    margin-left: 2%;
-    margin-top: 2%;
+    height: 13.5%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.clk{
+  display: flex;
+  margin-top: 4%;
+  margin-left: 2%;
+  background-color: whitesmoke;
+  border: 1px solid #7922CC;
+  border-radius: 25px;
+  width: 95%;
+  
+}
+
+.dff{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border: white;
+  width: 80%;
 }
 .avatar{
     border-radius: 100%;
-    width: 13.5%;
-   /*height: 100%;*/
+    width: 15%;
+    height: 100%;
+}
+.dlupa{
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  border-radius: 25px 0 0 25px;
+  background-color: white;
+}
+.dph{
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid blue;
+  width: 15%;
+}
+.lupa{
+  width: 60%;
+}
+.ph{
+  border-left: whitesmoke;
+  width: 60%;
+}
+.ff{
+  justify-self: center;
+  width: 100%;
 }
 .myname{
     display: flex;
+    width: 40%;
     flex-direction: column;
     justify-content: center;
+}
+.mnt{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  vertical-align: middle;
+}
+.imnt{
+  width: 23%;
+  vertical-align: middle;
 }
 .nav-find-input{
     width: 94%;
     
     margin-left: 2%;
 }
+
+.chtc{
+  display: flex;
+  flex-direction: row;
+}
+.chtt{
+  align-self: center;
+}
+.chti{
+  width: 45%;
+  align-self: center;
+}
+.cht{
+  display: flex;
+  flex-direction: column;
+}
 .nav-mbtn{
+  margin-top: 5%;
+  font-size: small;
     display: flex;
     justify-content: space-around;
     width: 100%;
     /*height: 100%;*/
 }
 .nav-mbtni{
-    width: 10%;
+    width: 45%;
+}
+.nav-mbtnii{
+  width: 37.24%;
+}
+.colli{
+  align-self: center;
+  width: 25%;
+}
+.colt{
+  align-self: center;
+}
+.rowt{
+  display: flex;
+  color: rgb(177, 157, 157);
+  font-size: small;
+  justify-content: flex-end;
+}
+.row{
+  display: flex;
+  color: rgb(177, 157, 157);
+  font-size: small;
+}
+.fl{
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  border: 1px solid #7922CC;
+  border-radius: 25px;
 }
 .ras{
     width: 100%;
+    margin-left: 2%;
 }
 .rc{
     margin-left: 2%;
@@ -58,9 +160,20 @@
     margin-left: 2%;
     margin-top: 2%;
 }
+
+.flc{
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  border: 0px solid #7922CC;
+  border-radius: 25px;
+  height: 100%;
+  margin-right: 10%;
+}
 .col{
     display: flex;
     flex-direction: row;    
+    width: 95%;
 }
 .nav-block-name-mes{
     width: 100%;
@@ -79,55 +192,58 @@
     justify-content: flex-end;
     margin-right: 4%;
     margin-top: 2%;
+    color: rgb(185, 171, 171);
+}
+.hit{
+  font-size: larger;
+  color: black;
+  font-size: x-large;
 }
 .content{
     width: 100%;
     height: 100%;
-    margin-left: 0.55%;
 }
 .about{
     display: flex;
-    width: 98%;
+    width: 100%;
     padding-top: 2%;
-    
+    border-bottom: 1px solid;
 }
+
 .status{
-    flex-wrap: nowrap;
-    text-overflow: ellipsis;
     display: flex;
     flex-direction: row;
     width: 100%;
-
+    color: rgb(177, 157, 157);
 }
 .st{
     margin-left: 3%;
 }
+
 .pic{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    padding-bottom: 2%;
+}
+.circle{
+  display: flex;
+
 }
 .pic-img{
-    width: 7%;
-}
-.inputs{
-    position: fixed;
-    bottom: 1%;
-    margin: 1%;
-    height: 4%;
-    display: flex;
-    width: 66%;
-    justify-content: flex-end;
-}
-.inp{
-    width: 90%;
+    align-self: center;
+    width: 50%;
 }
 
 .mes-btn-img{
-    width: 3%;
+    height: 10%;
 }
 .magic{
-    width: 85%;
+    width: 80%;
+    margin-left: 5%;
+}
+.messages{
+  color: rgb(177, 157, 157);
 }
 .mess{
     height: 100vh;
@@ -137,13 +253,7 @@
     
     height: 100%;
 }
-.bot{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 15%;
-    width: 100%;
-}
+
 .obrm{
   display: flex;
 	flex-wrap: nowrap;
@@ -155,10 +265,9 @@
 	align-content: stretch;
 }
 .obrn{    
-    display: inline-flex;
-    justify-content: flex-start;
+    display: flex;
     flex-direction: row;
-	
+    align-content: stretch;
   }
 
 .my{    
@@ -168,14 +277,64 @@
     padding: 1%;
    
 }
+.avatarm{
+  border-radius: 100%;
+  width: 100%;
+}
 .nme{
-  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
     margin-bottom: 1%;
     background-color: rgb(218, 218, 218);
     border-radius: 20%;
     padding: 1%;
+}
+.ne{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: larger;
+  margin-bottom: 1%;
+  background-color: lightblue;
+  border-radius: 20%;
+  padding: 1%;
+}
+.inputs{
+      position: fixed;
+      bottom: 1%;
+      margin: 1%;
+      height: 4%;
+      display: flex;
+      width: 61%;
+      justify-content: flex-end;
+
+      background-color: whitesmoke;
+      border: 1px solid #7922CC;
+      border-radius: 25px;
+  }
+  .mes-btn-img{
+    height: 100%;
+}
+.tm{
+  align-self: flex-end;
+}
+.bot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 15%;
+    width: 85%;
     
 }
+  .inp{
+    border-radius: 25px 0 0 25px;
+    border: 0px;
+      width: 90%;
+    margin-left: 1%;
+    background-color: whitesmoke;
+  }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
