@@ -7,8 +7,13 @@
 .nav{
     width: 30%;
     height: 100%;
-    background-color: rgb(236, 236, 233);
+    background-color: rgb(241, 244, 248);
     align-items: center;
+}
+.nickname{
+  font-size: 16px;
+  display: flex;
+  width: 100%;
 }
 .nav-avatar{
     width: 95%;
@@ -21,8 +26,8 @@
   display: flex;
   margin-top: 4%;
   margin-left: 2%;
-  background-color: whitesmoke;
-  border: 1px solid #7922CC;
+  background-color: white;
+  border: 1px solid rgb(225, 228, 231);
   border-radius: 25px;
   width: 95%;
   
@@ -38,7 +43,7 @@
 }
 .avatar{
     border-radius: 100%;
-    width: 15%;
+    width: 13%;
     height: 100%;
 }
 .dlupa{
@@ -51,25 +56,49 @@
 .dph{
   display: flex;
   justify-content: center;
-  border-left: 1px solid blue;
+  border-left: 1px solid rgb(225, 228, 231);
   width: 15%;
 }
 .lupa{
-  width: 60%;
+  align-self: center;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  height: 50%;
+  width: 50%;
 }
 .ph{
+  align-self: center;
+  height: 50%;
   border-left: whitesmoke;
-  width: 60%;
+  width: 50%;
 }
-.ff{
-  justify-self: center;
+.dlr{
+  margin-top: 2.5%;
+  color: rgb(153, 162, 173);
+  vertical-align: middle;
+  font-size: small;
+  align-self: center;
+  padding-left: 10%;
+  
   width: 100%;
 }
+.ff{
+  color: rgb(153, 162, 173);
+  justify-self: center;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 .myname{
+  margin-left: 2%;
     display: flex;
     width: 40%;
     flex-direction: column;
     justify-content: center;
+}
+.lts{
+  width: 60%;
+  vertical-align: middle;
 }
 .mnt{
   display: flex;
@@ -78,8 +107,13 @@
   vertical-align: middle;
 }
 .imnt{
-  width: 23%;
-  vertical-align: middle;
+  height: 100%;
+  width: 20%;
+  
+}
+
+.selected{
+  background-color: rgb(160, 220, 240);
 }
 .nav-find-input{
     width: 94%;
@@ -94,8 +128,13 @@
 .chtt{
   align-self: center;
 }
+.chti-bell{
+  width: 40%;
+  align-self: center;
+}
 .chti{
-  width: 45%;
+  
+  width: 25%;
   align-self: center;
 }
 .cht{
@@ -121,6 +160,7 @@
   width: 25%;
 }
 .colt{
+  margin-left: 3%;
   align-self: center;
 }
 .rowt{
@@ -129,29 +169,31 @@
   font-size: small;
   justify-content: flex-end;
 }
+
 .row{
   display: flex;
   color: rgb(177, 157, 157);
   font-size: small;
 }
 .fl{
+  width: 35%;
   display: flex;
   justify-content: center;
-  background-color: whitesmoke;
-  border: 1px solid #7922CC;
+  background-color: white;
+  border: 1px solid rgb(225, 228, 231);
   border-radius: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .ras{
     width: 100%;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 .rc{
     margin-left: 2%;
     margin-top: 2%;
 }
-.nav-chats{
-    /*height: 100%;*/
-}
+
 .user{
     width: 100%;
     /*height: 100%;*/
@@ -161,15 +203,7 @@
     margin-top: 2%;
 }
 
-.flc{
-  display: flex;
-  justify-content: center;
-  background-color: whitesmoke;
-  border: 0px solid #7922CC;
-  border-radius: 25px;
-  height: 100%;
-  margin-right: 10%;
-}
+
 .col{
     display: flex;
     flex-direction: row;    
@@ -179,11 +213,17 @@
     width: 100%;
     height: 100%;
     margin-top: 1%;
+    margin-left: 3%;
     display: flex;
 }
-.clmn{
+.clmnn{
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+  width: 100%;}
+  .clmn{
+    display: flex;
+    flex-direction: column;
+}
 .day{
     display: flex;
     flex-direction: row;
@@ -192,7 +232,7 @@
     justify-content: flex-end;
     margin-right: 4%;
     margin-top: 2%;
-    color: rgb(185, 171, 171);
+    color: rgb(153, 162, 173);
 }
 .hit{
   font-size: larger;
@@ -209,30 +249,66 @@
     padding-top: 2%;
     border-bottom: 1px solid;
 }
-
+.st{
+  width: 100%;
+}
 .status{
+  
+  font-size: larger;
     display: flex;
+    justify-content: start;
     flex-direction: row;
     width: 100%;
-    color: rgb(177, 157, 157);
-}
-.st{
-    margin-left: 3%;
-}
-
-.pic{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 2%;
+    color: rgb(153, 162, 173);
 }
 .circle{
+  background-color: rgb(241, 244, 248);
+  
+  justify-content: center;
+  vertical-align: middle;
   display: flex;
-
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin-left: 2%;
+  
+}
+.ccircle{
+  background-color: rgb(241, 244, 248);
+  align-self: center;
+  justify-content: center;
+  vertical-align: middle;
+  display: flex;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin-left: 2%;
+  
+}
+.scircle{
+  background-color: rgb(241, 244, 248);
+  border-radius: 25px 0 0 25px;
+  border: 0px;
+  justify-content: center;
+  vertical-align: middle;
+  display: flex;
+  
+  margin-left: 2%;
+  
+}
+.pic{
+  display: flex;
+  margin-right: 3%;
+  margin-bottom: 1%;
+}
+.picc{
+  display: flex;
+  justify-content: center;
 }
 .pic-img{
+    
     align-self: center;
-    width: 50%;
+    width: 50%;     
 }
 
 .mes-btn-img{
@@ -243,7 +319,7 @@
     margin-left: 5%;
 }
 .messages{
-  color: rgb(177, 157, 157);
+  color: rgb(153, 162, 173);
 }
 .mess{
     height: 100vh;
@@ -279,7 +355,8 @@
 }
 .avatarm{
   border-radius: 100%;
-  width: 100%;
+  width: 6%;
+  margin-right: 1%;
 }
 .nme{
     width: 100%;
@@ -287,7 +364,7 @@
     flex-direction: row;
     font-size: larger;
     margin-bottom: 1%;
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(225, 228, 231);;
     border-radius: 20%;
     padding: 1%;
 }
@@ -302,17 +379,8 @@
   padding: 1%;
 }
 .inputs{
-      position: fixed;
-      bottom: 1%;
-      margin: 1%;
-      height: 4%;
-      display: flex;
-      width: 61%;
-      justify-content: flex-end;
-
-      background-color: whitesmoke;
-      border: 1px solid #7922CC;
-      border-radius: 25px;
+     display: flex;
+     flex-direction: row;
   }
   .mes-btn-img{
     height: 100%;
@@ -321,19 +389,39 @@
   align-self: flex-end;
 }
 .bot{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 15%;
-    width: 85%;
-    
+    position: fixed;
+    bottom: 2%;
+    width: 60%;
+        
+}
+.pal{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.pall{
+  
+  margin-right: 2%;
+}
+.smile{
+  width: 100%;
+  
+  align-self: center;
+}
+
+.inputs{
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
   .inp{
-    border-radius: 25px 0 0 25px;
+    border-radius:  0 25px 25px 0 ;
     border: 0px;
-      width: 90%;
-    margin-left: 1%;
-    background-color: whitesmoke;
+    align-self: center;
+    height: 95%;
+    width: 80%;
+    background-color: rgb(241, 244, 248);
   }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
