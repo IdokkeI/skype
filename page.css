@@ -41,11 +41,36 @@
   border: white;
   width: 80%;
 }
+.online{
+  border-radius: 100%;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 70%;
+  right: 8%;
+  background-color: rgb(42, 209, 42);
+}
+.afk{
+  border-radius: 100%;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 70%;
+  right: 8%;
+  background-color: rgb(223, 226, 13);
+}
+.davatar{
+  position: relative;
+  width: 15%;  
+  height: 100%;
+}
+
 .avatar{
     border-radius: 100%;
-    width: 13%;
+    width: 100%;
     height: 100%;
 }
+
 .dlupa{
   display: flex;
   justify-content: center;
