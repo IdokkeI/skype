@@ -5,13 +5,13 @@
 }
 
 .nav{
-    width: 30%;
+    width: 27%;
     height: 100%;
     background-color: rgb(241, 244, 248);
     align-items: center;
 }
 .nickname{
-  font-size: 16px;
+  font-size: 16.5px;
   display: flex;
   width: 100%;
 }
@@ -20,15 +20,16 @@
     display: flex;
     height: 13.5%;
     padding-left: 2%;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 .clk{
   display: flex;
   margin-top: 4%;
+  margin-bottom: 4%;
   margin-left: 2%;
   background-color: white;
   border: 1px solid rgb(225, 228, 231);
-  border-radius: 25px;
+  border-radius: 5px;
   width: 95%;
   
 }
@@ -42,40 +43,67 @@
   width: 80%;
 }
 .online{
+  border: 1.5px solid white;
   border-radius: 100%;
   position: absolute;
   width: 20%;
   height: 20%;
-  top: 70%;
-  right: 8%;
+  top: 65%;
+  right: 15%;
   background-color: rgb(42, 209, 42);
 }
+.oafk{
+  align-self: center;
+  border: 1.5px solid white;
+  border-radius: 100%;
+  vertical-align: middle;
+  width: 8px;
+  height: 8px;
+ 
+  background-color: rgb(223, 226, 13);
+}
 .afk{
+  border: 1.5px solid white;
   border-radius: 100%;
   position: absolute;
   width: 20%;
   height: 20%;
-  top: 70%;
-  right: 8%;
+  top: 65%;
+  right: 15%;
   background-color: rgb(223, 226, 13);
 }
 .davatar{
+  margin-top: 3%;
   position: relative;
   width: 15%;  
   height: 100%;
 }
-
+.ast{
+  border: 1.5px solid white;
+  border-radius: 100%;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 65%;
+  right: 15%;
+  background-color: rgb(42, 209, 42);
+}
 .avatar{
     border-radius: 100%;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
+}
+.navatar{
+  border-radius: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 .dlupa{
   display: flex;
   justify-content: center;
   width: 15%;
-  border-radius: 25px 0 0 25px;
+  border-radius: 5px 0 0 5px;
   background-color: white;
 }
 .dph{
@@ -86,54 +114,61 @@
 }
 .lupa{
   align-self: center;
-  margin-right: 5%;
-  margin-bottom: 5%;
-  height: 50%;
-  width: 50%;
+ 
+  height: 60%;
+  width: 45%;
 }
 .ph{
   align-self: center;
-  height: 50%;
+  height: 60%;
   border-left: whitesmoke;
-  width: 50%;
+  width: 45%;
 }
 .dlr{
-  margin-top: 2.5%;
-  color: rgb(153, 162, 173);
-  vertical-align: middle;
-  font-size: small;
-  align-self: center;
-  padding-left: 10%;
-  
-  width: 100%;
+margin-left: 5%;
+
+color: rgb(153, 162, 173);
+font-size: small;
 }
 .ff{
   color: rgb(153, 162, 173);
   justify-self: center;
   width: 100%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  font-size: 14px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .myname{
-  margin-left: 2%;
+   font-size: small;
     display: flex;
-    width: 40%;
-    flex-direction: column;
-    justify-content: center;
+    width: 95%;
+    flex-direction: row;
+    vertical-align: middle;
+}
+.mynam{
+  margin-left: 2%;
+   display: flex;
+   width: 95%;
+   flex-direction: column;
+   justify-content: center;
 }
 .lts{
-  width: 60%;
+  width: 12px;
+  height: 12px;
   vertical-align: middle;
+  margin-bottom: 5%;
+  margin-right: 3px;
 }
+
 .mnt{
   display: flex;
-  width: 50%;
-  justify-content: flex-end;
+  width: 5%;
+ 
   vertical-align: middle;
 }
 .imnt{
   height: 100%;
-  width: 20%;
+  width: 10%;
   
 }
 
@@ -151,15 +186,13 @@
   flex-direction: row;
 }
 .chtt{
+  color: rgb(153, 162, 173);;
   align-self: center;
 }
-.chti-bell{
-  width: 40%;
-  align-self: center;
-}
+
 .chti{
-  
-  width: 25%;
+  margin-bottom: 5%;
+  width: 23%;
   align-self: center;
 }
 .cht{
@@ -167,7 +200,15 @@
   flex-direction: column;
 }
 .nav-mbtn{
-  margin-top: 5%;
+  margin-top: 6%;
+  font-size: small;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /*height: 100%;*/
+}
+.nav-mbtnn{
+  margin-top: 4%;
   font-size: small;
     display: flex;
     justify-content: space-around;
@@ -182,10 +223,13 @@
 }
 .colli{
   align-self: center;
-  width: 25%;
+  width: 15%;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 .colt{
   margin-left: 3%;
+  font-size: medium;
   align-self: center;
 }
 .rowt{
@@ -207,20 +251,24 @@
   background-color: white;
   border: 1px solid rgb(225, 228, 231);
   border-radius: 25px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+ 
 }
 .ras{
     width: 100%;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 .rc{
-    margin-left: 2%;
-    margin-top: 2%;
+  font-size: 14px;
+    color: rgb(153, 162, 173);
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .user{
-    width: 100%;
+    width: 98%;
     /*height: 100%;*/
     display: flex;
     flex-direction: column;
@@ -233,11 +281,13 @@
     display: flex;
     flex-direction: row;    
     width: 95%;
+    justify-content: center;
 }
 .nav-block-name-mes{
     width: 100%;
     height: 100%;
-    margin-top: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     margin-left: 3%;
     display: flex;
 }
@@ -252,15 +302,15 @@
 .day{
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 100%;
     height: 100%;
     justify-content: flex-end;
-    margin-right: 4%;
-    margin-top: 2%;
+    
+   
     color: rgb(153, 162, 173);
 }
 .hit{
-  font-size: larger;
+  font-size: 18px;
   color: black;
   font-size: x-large;
 }
@@ -271,15 +321,15 @@
 .about{
     display: flex;
     width: 100%;
-    padding-top: 2%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     border-bottom: 1px solid;
 }
-.st{
-  width: 100%;
-}
+
 .status{
-  
-  font-size: larger;
+    margin-top: 1%;
+    display: flex;
+    font-size: larger;
     display: flex;
     justify-content: start;
     flex-direction: row;
@@ -288,14 +338,14 @@
 }
 .circle{
   background-color: rgb(241, 244, 248);
-  
+  margin-top: 3%;
   justify-content: center;
   vertical-align: middle;
   display: flex;
   border-radius: 100%;
-  width: 45px;
-  height: 45px;
-  margin-left: 2%;
+  width: 50px;
+  height: 40px;
+  margin-left: 7%;
   
 }
 .ccircle{
@@ -323,10 +373,11 @@
 }
 .pic{
   display: flex;
-  margin-right: 3%;
+  margin-right: 1%;
   margin-bottom: 1%;
 }
 .picc{
+  
   display: flex;
   justify-content: center;
 }
@@ -340,15 +391,18 @@
     height: 10%;
 }
 .magic{
-    width: 80%;
-    margin-left: 5%;
+    margin-top: 2%;
+    width: 87%;
+    margin-left: 2%;
 }
 .messages{
+  font-size: 16.5px;
   color: rgb(153, 162, 173);
 }
 .mess{
     height: 100vh;
-    margin-top: 2%;
+    width: 100%;
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
     
@@ -363,9 +417,11 @@
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 	align-items: stretch;
-	align-content: stretch;
+  align-content: stretch;
+  width: 100%;
 }
 .obrn{    
+  width: 100%;
     display: flex;
     flex-direction: row;
     align-content: stretch;
@@ -380,7 +436,8 @@
 }
 .avatarm{
   border-radius: 100%;
-  width: 6%;
+  width: 4%;
+  height: 4%;
   margin-right: 1%;
 }
 .nme{
@@ -390,8 +447,8 @@
     font-size: larger;
     margin-bottom: 1%;
     background-color: rgb(225, 228, 231);;
-    border-radius: 20%;
-    padding: 1%;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10%;
 }
 .ne{
   width: 100%;
@@ -400,8 +457,8 @@
   font-size: larger;
   margin-bottom: 1%;
   background-color: lightblue;
-  border-radius: 20%;
-  padding: 1%;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10%;
 }
 .inputs{
      display: flex;
@@ -415,13 +472,13 @@
 }
 .bot{
     position: fixed;
-    bottom: 2%;
-    width: 60%;
+    bottom: 4%;
+    width: 67%;
         
 }
 .pal{
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .pall{
@@ -429,13 +486,13 @@
   margin-right: 2%;
 }
 .smile{
-  width: 100%;
+  width: 80%;
   
   align-self: center;
 }
 
 .inputs{
-  justify-content: flex-end;
+  margin-left: 3%;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -445,7 +502,7 @@
     border: 0px;
     align-self: center;
     height: 95%;
-    width: 80%;
+    width: 100%;
     background-color: rgb(241, 244, 248);
   }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
