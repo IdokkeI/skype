@@ -14,6 +14,7 @@
   font-size: 16.5px;
   display: flex;
   width: 100%;
+  white-space: nowrap;
 }
 .nav-avatar{
     width: 95%;
@@ -173,7 +174,7 @@ font-size: small;
 }
 
 .selected{
-  background-color: rgb(160, 220, 240);
+  background-color: rgb(200, 238, 252);
 }
 .nav-find-input{
     width: 94%;
@@ -337,7 +338,7 @@ font-size: small;
     color: rgb(153, 162, 173);
 }
 .circle{
-  background-color: rgb(241, 244, 248);
+  background-color: rgb(242, 242, 244);
   margin-top: 3%;
   justify-content: center;
   vertical-align: middle;
@@ -349,7 +350,7 @@ font-size: small;
   
 }
 .ccircle{
-  background-color: rgb(241, 244, 248);
+  background-color: rgb(242, 242, 244);
   align-self: center;
   justify-content: center;
   vertical-align: middle;
@@ -361,7 +362,7 @@ font-size: small;
   
 }
 .scircle{
-  background-color: rgb(241, 244, 248);
+  background-color: rgb(242, 242, 244);
   border-radius: 25px 0 0 25px;
   border: 0px;
   justify-content: center;
@@ -429,7 +430,7 @@ font-size: small;
 
 .my{    
   max-width: 50%;
-    background-color: rgb(160, 220, 240);
+    background-color: rgb(200, 238, 252);
     border-radius: 20%;
     padding: 1%;
    
@@ -446,7 +447,7 @@ font-size: small;
     flex-direction: row;
     font-size: larger;
     margin-bottom: 1%;
-    background-color: rgb(225, 228, 231);;
+    background-color: rgb(242, 246, 249);;
     border-radius: 5px 5px 5px 5px;
     padding: 10%;
 }
@@ -456,7 +457,7 @@ font-size: small;
   flex-direction: row;
   font-size: larger;
   margin-bottom: 1%;
-  background-color: lightblue;
+  background-color: rgb(200, 238, 252);
   border-radius: 5px 5px 5px 5px;
   padding: 10%;
 }
@@ -503,7 +504,7 @@ font-size: small;
     align-self: center;
     height: 95%;
     width: 100%;
-    background-color: rgb(241, 244, 248);
+    background-color: rgb(242, 242, 244);
   }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
