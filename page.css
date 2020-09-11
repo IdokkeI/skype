@@ -4,6 +4,11 @@
     display: flex;
 }
 
+html{
+	font-family: "Segoe UI" sans-serif;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%
+	}
 .nav{
     width: 27%;
     height: 100%;
