@@ -15,7 +15,9 @@
 html{
     font-family: "Segoe Regular";
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+   
 }
 
 .font-bold {
@@ -27,10 +29,17 @@ html{
   align-items: center;
 }
 
-.container{
+.container{  
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
+    overflow: hidden;
+}
+
+.nav-chats{
+  display: flex;
+  flex-direction: column;
+  height: 74.25%;
 }
 
 .nav{
@@ -202,13 +211,20 @@ color: rgb(153, 162, 173);
 .mnt{
   display: flex;
   width: 5%;
- 
   vertical-align: middle;
 }
 .imnt{
-  height: 100%;
-  width: 10%;
-  
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.imnt div {
+  width: 4px;
+  height: 4px;
+  margin: 1px;
+  border: 2px solid black;
+  border-radius: 999px;
 }
 
 .selected{
@@ -307,7 +323,10 @@ color: rgb(153, 162, 173);
     margin-top: 5%;
     margin-bottom: 3%;
 }
-
+.rcc{
+  height: 89%;
+  overflow: auto;  
+}
 .user{
     width: 98%;
     display: flex;
@@ -334,11 +353,10 @@ color: rgb(153, 162, 173);
 .clmnn{
     display: flex;
     flex-direction: column;
-  width: 100%;}
-  .clmn{
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    padding-right: 10%;
 }
+
 .workspase-name {
     margin-bottom: 3px;
 }
@@ -360,6 +378,8 @@ color: rgb(153, 162, 173);
   font-size: 24px;
 }
 .content{
+  display: flex;
+  flex-direction: column;
     width: 100%;
     height: 100%;
 }
@@ -428,7 +448,8 @@ color: rgb(153, 162, 173);
 .picc{
   
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-bottom: 0.4%;
 }
 .pic-img{
     
@@ -440,25 +461,31 @@ color: rgb(153, 162, 173);
     height: 10%;
 }
 .magic{
+  overflow: auto;
     margin-top: 2%;
-    width: 87%;
+    padding-right: 1.5%;
+    width: 96.5%;
     margin-left: 2%;
+    padding-bottom: 3%;
 }
 .messages{
   font-size: 15px;
   color: rgb(138, 141, 145);
 }
 .mess{
-    height: 100vh;
+  
+    overflow: auto;
+    overflow-x: hidden;
     width: 100%;
     margin-top: 1%;
     display: flex;
     flex-direction: column;
     
-    height: 100%;
+    height: 80%;
 }
 
 .obrm{
+  
   display: flex;
 	flex-wrap: nowrap;
   justify-content: flex-end;
@@ -504,8 +531,11 @@ color: rgb(153, 162, 173);
     font-size: 14px;
 }
 .inputs{
+    
      display: flex;
      flex-direction: row;
+     width: 100%;
+     padding-bottom: 0.4%;
   }
   .mes-btn-img{
     height: 100%;
@@ -513,12 +543,7 @@ color: rgb(153, 162, 173);
 .tm{
   align-self: flex-end;
 }
-.bot{
-    position: fixed;
-    bottom: 4%;
-    width: 67%;
-        
-}
+
 .pal{
   margin: 0px 10px;
   width: 1px;
@@ -541,13 +566,14 @@ color: rgb(153, 162, 173);
   margin-left: 3%;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 87%;
 }
   .inp{
+    outline: 0;
     border-radius:  0 25px 25px 0 ;
     border: 0px;
     font-size: 15px;
-    align-self: center;
+    align-self: stretch;
     height: 95%;
     width: 100%;
     background-color: rgb(242, 242, 244);
@@ -564,10 +590,7 @@ color: rgb(153, 162, 173);
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-  }
+
   
   /* Sections
      ========================================================================== */
@@ -577,6 +600,7 @@ color: rgb(153, 162, 173);
    */
   
   body {
+    height: 100%;
     margin: 0;
   }
   
